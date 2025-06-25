@@ -1,0 +1,5 @@
+[2025-06-25 17:11:21,659: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-25 17:11:21,660: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-25 17:11:21,661: INFO: common: created directory at: artifacts]
+[2025-06-25 17:11:21,661: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-06-25 17:11:21,662: INFO: 942659643: artifacts/data_ingestion/data.zip already exists]
