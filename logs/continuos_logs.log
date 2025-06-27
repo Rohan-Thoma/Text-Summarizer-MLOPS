@@ -48,3 +48,128 @@
 [2025-06-26 17:27:52,349: INFO: spawn: x86_64-linux-gnu-gcc /tmp/tmpsu9j8iu0/test.o -L/usr/local/cuda -L/usr/local/cuda/lib64 -lcufile -o /tmp/tmpsu9j8iu0/a.out]
 [2025-06-26 17:27:52,411: INFO: spawn: x86_64-linux-gnu-gcc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -fPIC -c /tmp/tmphnl66m28/test.c -o /tmp/tmphnl66m28/test.o]
 [2025-06-26 17:27:52,424: INFO: spawn: x86_64-linux-gnu-gcc /tmp/tmphnl66m28/test.o -laio -o /tmp/tmphnl66m28/a.out]
+[2025-06-27 10:19:16,465: INFO: config: PyTorch version 2.6.0 available.]
+[2025-06-27 13:03:51,519: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-27 13:03:51,524: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-27 13:03:51,526: INFO: common: created directory at: artifacts]
+[2025-06-27 13:03:51,526: INFO: common: created directory at: artifacts/data_transformation]
+[2025-06-27 13:04:52,534: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-27 13:04:52,536: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-27 13:04:52,536: INFO: common: created directory at: artifacts]
+[2025-06-27 13:04:52,539: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-06-27 13:07:00,602: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-27 13:07:00,605: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-27 13:07:00,605: INFO: common: created directory at: artifacts]
+[2025-06-27 13:07:00,606: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-06-27 13:10:38,480: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-27 13:10:38,482: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-27 13:10:38,483: INFO: common: created directory at: artifacts]
+[2025-06-27 13:10:38,484: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-06-27 13:11:07,651: INFO: rouge_scorer: Using default tokenizer.]
+[2025-06-27 13:22:15,728: INFO: config: PyTorch version 2.6.0 available.]
+[2025-06-27 13:22:16,931: INFO: main: stage Data Ingestion Stage initiated]
+[2025-06-27 13:22:16,932: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-27 13:22:16,934: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-27 13:22:16,934: INFO: common: created directory at: artifacts]
+[2025-06-27 13:22:16,934: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-06-27 13:22:20,160: INFO: data_ingestion: artifacts/data_ingestion/data.zip is downloaded]
+[2025-06-27 13:22:20,262: INFO: main: stage Data Ingestion Stage is completed]
+[2025-06-27 13:22:20,262: INFO: main: stage Data Transformation Stage initiated]
+[2025-06-27 13:22:20,264: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-27 13:22:20,264: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-27 13:22:20,265: INFO: common: created directory at: artifacts]
+[2025-06-27 13:22:20,265: INFO: common: created directory at: artifacts/data_transformation]
+[2025-06-27 13:22:23,122: INFO: main: stage Data Transformation Stage is completed]
+[2025-06-27 13:22:23,122: INFO: main: stage Model Training Stage initiated]
+[2025-06-27 13:22:23,123: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-27 13:22:23,124: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-27 13:22:23,124: INFO: common: created directory at: artifacts]
+[2025-06-27 13:22:23,124: INFO: common: created directory at: artifacts/model_trainer]
+[2025-06-27 13:22:36,887: INFO: spawn: x86_64-linux-gnu-gcc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -fPIC -c /tmp/tmpx86ge3s3/test.c -o /tmp/tmpx86ge3s3/test.o]
+[2025-06-27 13:22:36,945: INFO: spawn: x86_64-linux-gnu-gcc /tmp/tmpx86ge3s3/test.o -laio -o /tmp/tmpx86ge3s3/a.out]
+[2025-06-27 13:22:37,279: INFO: spawn: x86_64-linux-gnu-gcc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -fPIC -c /tmp/tmp3lf989zw/test.c -o /tmp/tmp3lf989zw/test.o]
+[2025-06-27 13:22:37,291: INFO: spawn: x86_64-linux-gnu-gcc /tmp/tmp3lf989zw/test.o -L/usr/local/cuda -L/usr/local/cuda/lib64 -lcufile -o /tmp/tmp3lf989zw/a.out]
+[2025-06-27 13:22:37,349: INFO: spawn: x86_64-linux-gnu-gcc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -fPIC -c /tmp/tmp46unve3b/test.c -o /tmp/tmp46unve3b/test.o]
+[2025-06-27 13:22:37,362: INFO: spawn: x86_64-linux-gnu-gcc /tmp/tmp46unve3b/test.o -laio -o /tmp/tmp46unve3b/a.out]
+[2025-06-27 13:23:28,422: INFO: main: stage Model Training Stage is completed]
+[2025-06-27 13:23:28,424: INFO: main: stage Model Evaluation Stage initiated]
+[2025-06-27 13:23:28,490: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-27 13:23:28,795: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-27 13:23:28,853: INFO: common: created directory at: artifacts]
+[2025-06-27 13:23:28,913: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-06-27 13:23:38,524: ERROR: main: CUDA out of memory. Tried to allocate 128.00 MiB. GPU 0 has a total capacity of 7.65 GiB of which 21.56 MiB is free. Process 132688 has 6.09 MiB memory in use. Process 23504 has 5.24 GiB memory in use. Including non-PyTorch memory, this process has 2.35 GiB memory in use. Of the allocated memory 2.19 GiB is allocated by PyTorch, and 41.46 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)]
+Traceback (most recent call last):
+  File "/home/ml01/MLOps/hugginface_project/Text-Summarizer-MLOPS/main.py", line 53, in <module>
+    model_evaluation_pipeline.initiate_model_evaluation()
+  File "/home/ml01/MLOps/hugginface_project/Text-Summarizer-MLOPS/src/text_summarizer/pipeline/stage_4_model_evaluation_pipeline.py", line 14, in initiate_model_evaluation
+    model_evaluation_component.evaluate()
+  File "/home/ml01/MLOps/hugginface_project/Text-Summarizer-MLOPS/src/text_summarizer/components/model_evaluation.py", line 64, in evaluate
+    score = self.calculate_metric_on_test_ds(
+  File "/home/ml01/MLOps/hugginface_project/Text-Summarizer-MLOPS/src/text_summarizer/components/model_evaluation.py", line 33, in calculate_metric_on_test_ds
+    summaries = model.generate(input_ids=inputs["input_ids"].to(device),
+  File "/home/ml01/.virtualenvs/mlops_huggingface/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ml01/.virtualenvs/mlops_huggingface/lib/python3.10/site-packages/transformers/generation/utils.py", line 2412, in generate
+    model_kwargs = self._prepare_encoder_decoder_kwargs_for_generation(
+  File "/home/ml01/.virtualenvs/mlops_huggingface/lib/python3.10/site-packages/transformers/generation/utils.py", line 854, in _prepare_encoder_decoder_kwargs_for_generation
+    model_kwargs["encoder_outputs"]: ModelOutput = encoder(**encoder_kwargs)  # type: ignore
+  File "/home/ml01/.virtualenvs/mlops_huggingface/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ml01/.virtualenvs/mlops_huggingface/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ml01/.virtualenvs/mlops_huggingface/lib/python3.10/site-packages/transformers/models/pegasus/modeling_pegasus.py", line 788, in forward
+    layer_outputs = encoder_layer(
+  File "/home/ml01/.virtualenvs/mlops_huggingface/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ml01/.virtualenvs/mlops_huggingface/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ml01/.virtualenvs/mlops_huggingface/lib/python3.10/site-packages/transformers/models/pegasus/modeling_pegasus.py", line 313, in forward
+    hidden_states, attn_weights, _ = self.self_attn(
+  File "/home/ml01/.virtualenvs/mlops_huggingface/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ml01/.virtualenvs/mlops_huggingface/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ml01/.virtualenvs/mlops_huggingface/lib/python3.10/site-packages/transformers/models/pegasus/modeling_pegasus.py", line 214, in forward
+    attn_weights = torch.bmm(query_states, key_states.transpose(1, 2))
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 128.00 MiB. GPU 0 has a total capacity of 7.65 GiB of which 21.56 MiB is free. Process 132688 has 6.09 MiB memory in use. Process 23504 has 5.24 GiB memory in use. Including non-PyTorch memory, this process has 2.35 GiB memory in use. Of the allocated memory 2.19 GiB is allocated by PyTorch, and 41.46 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[2025-06-27 13:24:08,940: INFO: config: PyTorch version 2.6.0 available.]
+[2025-06-27 13:24:09,919: INFO: main: stage Data Ingestion Stage initiated]
+[2025-06-27 13:24:09,921: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-27 13:24:09,921: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-27 13:24:09,921: INFO: common: created directory at: artifacts]
+[2025-06-27 13:24:09,921: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-06-27 13:24:09,921: INFO: data_ingestion: artifacts/data_ingestion/data.zip already exists]
+[2025-06-27 13:24:10,045: INFO: main: stage Data Ingestion Stage is completed]
+[2025-06-27 13:24:10,045: INFO: main: stage Data Transformation Stage initiated]
+[2025-06-27 13:24:10,046: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-27 13:24:10,047: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-27 13:24:10,047: INFO: common: created directory at: artifacts]
+[2025-06-27 13:24:10,047: INFO: common: created directory at: artifacts/data_transformation]
+[2025-06-27 13:24:12,182: INFO: main: stage Data Transformation Stage is completed]
+[2025-06-27 13:24:12,182: INFO: main: stage Model Training Stage initiated]
+[2025-06-27 13:24:12,184: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-27 13:24:12,184: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-27 13:24:12,184: INFO: common: created directory at: artifacts]
+[2025-06-27 13:24:12,184: INFO: common: created directory at: artifacts/model_trainer]
+[2025-06-27 13:24:19,738: INFO: spawn: x86_64-linux-gnu-gcc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -fPIC -c /tmp/tmpqc4a_sgc/test.c -o /tmp/tmpqc4a_sgc/test.o]
+[2025-06-27 13:24:19,791: INFO: spawn: x86_64-linux-gnu-gcc /tmp/tmpqc4a_sgc/test.o -laio -o /tmp/tmpqc4a_sgc/a.out]
+[2025-06-27 13:24:20,132: INFO: spawn: x86_64-linux-gnu-gcc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -fPIC -c /tmp/tmpubq7tyl6/test.c -o /tmp/tmpubq7tyl6/test.o]
+[2025-06-27 13:24:20,146: INFO: spawn: x86_64-linux-gnu-gcc /tmp/tmpubq7tyl6/test.o -L/usr/local/cuda -L/usr/local/cuda/lib64 -lcufile -o /tmp/tmpubq7tyl6/a.out]
+[2025-06-27 13:24:20,184: INFO: spawn: x86_64-linux-gnu-gcc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -fPIC -c /tmp/tmp46l0f_yc/test.c -o /tmp/tmp46l0f_yc/test.o]
+[2025-06-27 13:24:20,196: INFO: spawn: x86_64-linux-gnu-gcc /tmp/tmp46l0f_yc/test.o -laio -o /tmp/tmp46l0f_yc/a.out]
+[2025-06-27 13:24:41,185: INFO: main: stage Model Training Stage is completed]
+[2025-06-27 13:24:41,186: INFO: main: stage Model Evaluation Stage initiated]
+[2025-06-27 13:24:41,188: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-27 13:24:41,191: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-27 13:24:41,191: INFO: common: created directory at: artifacts]
+[2025-06-27 13:24:41,191: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-06-27 13:25:04,366: INFO: rouge_scorer: Using default tokenizer.]
+[2025-06-27 13:25:04,513: INFO: main: stage Model Evaluation Stage is completed]
+[2025-06-27 15:55:20,349: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-27 15:55:20,352: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-27 15:55:20,352: INFO: common: created directory at: artifacts]
+[2025-06-27 15:55:20,352: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-06-27 15:56:34,756: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-27 15:56:34,757: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-27 15:56:34,758: INFO: common: created directory at: artifacts]
+[2025-06-27 15:56:34,758: INFO: common: created directory at: artifacts/model_evaluation]
